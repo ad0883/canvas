@@ -55,7 +55,7 @@ window.addEventListener('resize', () => {
         dots.push({
             x:  Math.floor(Math.random() * canvas.width),
             y:  Math.floor(Math.random() * canvas.height),
-            size: Math.random() * 3 + 5,
+            size: Math.random() * 3 + 1,
             color: arrayColors[Math.floor(Math.random()* 5)]
         });
     }
